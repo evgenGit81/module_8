@@ -6,7 +6,7 @@ def add_everything_up(a, b):
         c = a + b
         return c
     except TypeError:
-        print("Несовпадение форматов, но я сcуммирую:")
+        print("Несовпадение типов, но я сcуммирую:")
         bb = str(b)
         aa = str(a)
         c = aa + bb
